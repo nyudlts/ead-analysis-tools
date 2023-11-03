@@ -1,0 +1,4 @@
+./fixtures/Omega-EAD-extra-nesting.xml
+./fixtures/aia_074.xml
+./fixtures/mc_74.xml
+./fixtures/mc_74-missing-role.xml

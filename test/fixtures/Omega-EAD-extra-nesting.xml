@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid url="http://dlib.nyu.edu/findingaids/html/tamwag/mos_2021">mos_2021</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper type="filing">This is the Finding Aid Filing Title</titleproper>
+        <titleproper>Guide to Megan O'Shea's <emph render="italic">One</emph> Resource to <lb/> Rule
+          Them All <num type="collection">MOS.2021</num></titleproper>
+        <subtitle>A Wicked Awesome Resource Record</subtitle>
+        <author>Megan O'Shea</author>
+        <sponsor>Creation of this finding aid funded by New York University Libraries.</sponsor>
+      </titlestmt>
+      <editionstmt>
+        <p>First edition</p>
+      </editionstmt>
+      <publicationstmt>
+        <publisher>Tamiment Library and Robert F. Wagner Labor Archives</publisher>
+        <p><date>March 2021</date></p>
+        <address>
+          <addressline>Elmer Holmes Bobst Library</addressline>
+          <addressline>70 Washington Square South</addressline>
+          <addressline>2nd Floor</addressline>
+          <addressline>New York, NY 10012</addressline>
+          <addressline>special.collections@nyu.edu</addressline>
+          <addressline>URL: <extptr
+              xlink:href="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+              xlink:show="new"
+              xlink:title="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>Here is a note.</p>
+        </note>
+      </notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2021-03-12 10:01:33
+          -0500</date>.</creation>
+      <langusage>Finding aid written in <language>English</language></langusage>
+      <descrules>Describing Archives: A Content Standard</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>March 2021</date>
+        <item>Updated by <emph render="bold">Megan O'Shea</emph> in order to include <title type="example">this
+            note.</title><lb/>
+          <bibref><emph render="bold">Ardouin, Charles Nicholas Celigny</emph>. <title
+              render="italic">Essais sur l'histoire d'Haiti</title>. Port-au-Prince, 1865.</bibref>
+          <corpname>Tamiment Library and Robert F. Wagner Labor Archives</corpname><persname
+            role="dnr" rules="local" source="local"> Megan
+          O'Shea</persname><name>Rolodex</name></item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did id="aspace_12345">
+      <repository>
+        <corpname>Tamiment Library and Robert F. Wagner Labor Archives</corpname>
+      </repository>
+      <unittitle>Megan O'Shea's One Resource to Rule Them All</unittitle>
+      <origination label="Creator">
+        <persname role="dnr" rules="local" source="local"> Megan O'Shea</persname>
+      </origination>
+      <origination label="source">
+        <famname rules="dacs" source="local">Belfrage family</famname>
+      </origination>
+      <origination label="source">
+        <corpname source="naf">Tamiment Library</corpname>
+      </origination>
+      <unitid>MOS.2021</unitid>
+      <physdesc altrender="whole" label="extent" id="aspace_984575749">
+        <extent altrender="materialtype spaceoccupied" unit="feet">25 Linear Feet</extent>
+        <extent altrender="carrier">in 24 record cartons, <emph>1 manuscript box</emph>, and 1 flat file
+          folder<lb/></extent>
+        <dimensions id="aspace_23456" label="dimensions">24" x 24"</dimensions>
+        <physfacet type="writing" id="aspace_4848948939" label="style"><emph>handwritten</emph></physfacet>
+      </physdesc>
+      <unitdate normal="2016/2021" type="inclusive">2016-2021, undated</unitdate>
+      <unitdate normal="2020/2021" type="bulk">2020-2021, undated</unitdate>
+      <abstract id="aspace_578f8e62f435ef40a8928b0439142fc9">This is the <emph render="italic"
+          >abstract</emph>.<lb/> It has a <title>title</title> in it.</abstract>
+      <langmaterial id="aspace_791d685c5b2d2cc8c7d9d982ed6d5dee"><language>English</language> is
+          <emph>the language</emph></langmaterial>
+      <container altrender="Record carton" id="aspace_7408027903577df5cf6eae303d1939d4"
+        label="Mixed Materials" type="box">1</container>
+      <container id="aspace_7feea19153ecd1c79aadb15afd8290e9"
+        parent="aspace_7408027903577df5cf6eae303d1939d4" type="folder">1</container>
+      <dao xlink:actuate="onRequest"
+        xlink:href="https://aeon.library.nyu.edu/remoteauth/aeon.dll?Logon&amp;Action=10&amp;Form=31&amp;Value=http://dlib.nyu.edu/findingaids/ead/tamwag/mos_2021.xml&amp;view=xml"
+        xlink:role="audio-service" xlink:show="new" xlink:title="This is a digital object"
+        xlink:type="simple">
+        <daodesc>
+          <p>This is a digital object</p>
+        </daodesc>
+      </dao>
+      <daogrp xlink:title="Archived website of Julie Kathryn" xlink:type="extended">
+        <daodesc>
+          <p>Archived website of Julie Kathryn</p>
+        </daodesc>
+        <daoloc xlink:href="https://wayback.archive-it.org/9900/*/http://www.iamsnowangel.com"
+          xlink:role="external-link"
+          xlink:title="Archived website of Julie Kathryn" xlink:type="locator"/>
+        <daoloc xlink:href="https://wayback.archive-it.org/4049/*/http://www.iamsnowangel.com"
+          xlink:role="external-link"
+          xlink:title="Archived website of Julie Kathryn" xlink:type="locator"/>
+      </daogrp>
+      <materialspec label="Mathematical Data">
+        <materialspec label="Scale:">1:10000</materialspec>
+        <materialspec label="Projection:">Universal transverse Mercator projection</materialspec>
+      </materialspec>
+      <physloc id="aspace_88447211">Box 152</physloc>
+    </did>
+    <accessrestrict id="aspace_7737a7dc7fd92d0055945aaca8066375">
+      <head>Conditions Governing Access</head>
+      <legalstatus id="aspace_545465464">This is the Conditions Governing Access note.</legalstatus>
+
+      <p>It contains a table: <table>
+          <tgroup cols="2">
+            <colspec colwidth="70px"/>
+            <colspec colwidth="300px"/>
+            <tbody>
+              <row>
+                <entry> 1970 </entry>
+                <entry><emph render="italic"> The Red Horse Animation </emph></entry>
+              </row>
+              <row>
+                <entry> 1971 </entry>
+                <entry><emph render="italic"> Come and Go </emph></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+
+      <p><chronlist>
+          <head>The following chronology provides a backdrop for the Board of Higher Education of
+            the City of New York cases included within this collection:</head>
+          <chronitem>
+            <date type="publication">1939</date>
+            <eventgrp>
+              <event>The <emph render="italic">New York State Legislature</emph> enacted Section
+                12-a of the <title>Civil Service Law</title> which provided in substance that "no
+                person shall be appointed to or retained in the public service nor in any public
+                educational institution who becomes a member of any organization which advocates the
+                overthrow of government by force or violence, or by any unlawful means (L. 1939, Ch.
+                547)."</event>
+            </eventgrp>
+          </chronitem>
+        </chronlist></p>
+
+      <p><list type="deflist" numeration="arabic">
+          <listhead>
+            <head01>Abbreviation</head01>
+            <head02>Expansion</head02>
+          </listhead>
+          <defitem>
+            <label>MIT</label>
+            <item>Massachusetts Institute of Technology</item>
+          </defitem>
+          <defitem>
+            <label>PCV</label>
+            <item>Peace Corps Volunteer</item>
+          </defitem>
+        </list></p>
+    </accessrestrict>
+    <accruals id="aspace_f05011cc547339bd4114711751029c6d">
+      <head>Accruals</head>
+      <p>This is the Accruals note.</p>
+    </accruals>
+    <acqinfo id="aspace_7be31470c64f6cfbf4336ba9af1a31d3">
+      <head>Immediate Source of Acquisition</head>
+      <p>This is the Immediate Source of Acquisition note.</p>
+    </acqinfo>
+    <appraisal id="aspace_45cf36d965d0f038d67621dbebb9ebf1">
+      <head>Appraisal</head>
+      <p>This is the Appraisal note.</p>
+    </appraisal>
+    <arrangement id="aspace_65d23a620677d7f70a9b3dcfa9523829">
+      <head>Arrangement</head>
+      <p>This is the Arrangement note.</p>
+    </arrangement>
+    <bioghist id="aspace_5bfa9f2060a4b600e0b0ae6c3924354b">
+      <head>Biographical Note</head>
+      <p>This is the Biographical note.</p>
+    </bioghist>
+    <custodhist id="aspace_03c962dea0c06463b3615c01bc8ac97e">
+      <head>Custodial History</head>
+      <p>This is the Custodial History note.</p>
+    </custodhist>
+    <odd id="aspace_0c2299264bc16498d16857b8d48c6626">
+      <head>General</head>
+      <p>This is the General note.</p>
+      <p id="aspace_8383838">
+        <address>
+          <addressline>Elmer Holmes Bobst Library</addressline>
+          <addressline>70 Washington Square South</addressline>
+          <addressline>2nd Floor</addressline>
+          <addressline>New York, NY 10012</addressline>
+          <addressline>special.collections@nyu.edu</addressline>
+          <addressline>URL: <extptr
+              xlink:href="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+              xlink:show="new"
+              xlink:title="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+              xlink:type="simple"/></addressline>
+        </address>
+        <abbr expan="Autographed Letter Signed">ALS</abbr>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/tamwag/tam_189/"
+            xlink:title="Sally Belfrage" xlink:type="simple" xlink:show="new">The Sally Belfrage
+            Papers (TAM 189)</extref></archref>
+        <bibref><emph render="bold">Ardouin, Charles Nicholas Celigny</emph>. <title render="italic"
+            >Essais sur l'histoire d'Haiti</title>. Port-au-Prince, 1865.</bibref>
+        <blockquote>
+          <p>No doubt the estate has exerted a tremendous influence on the development of my
+            character. One may walk for an hour without glimpsing another soul, which has taught me
+            to love tranquility.</p>
+        </blockquote><lb/>
+        <corpname source="naf">Tamiment Library</corpname>
+        <date>March 2021</date>
+        <list type="deflist" numeration="arabic">
+          <listhead>
+            <head01>Abbreviation</head01>
+            <head02>Expansion</head02>
+          </listhead>
+          <defitem>
+            <label>MIT</label>
+            <item>Massachusetts Institute of Technology</item>
+          </defitem>
+        </list>
+        <genreform source="aat">Oral histories (literary works)</genreform>
+        <name>Rolodex</name>
+        <num type="collection">MOS.2021</num>
+        <occupation source="lcsh">Fulbright scholars.</occupation>
+        <subject source="lcsh">Irish American women -- History -- 19th century.</subject>
+      </p>
+    </odd>
+    <originalsloc id="aspace_aa0a0cdc1b60f061cdbae4abf56bcfb7">
+      <head>Existence and Location of Originals</head>
+      <p>This is the Existence and Location of Originals note.</p>
+    </originalsloc>
+    <otherfindaid id="aspace_0b719130b0efb4b3dd232a74de098aa9">
+      <head>Other Finding Aids</head>
+      <p>This is the Other Finding Aids note.</p>
+    </otherfindaid>
+    <phystech id="aspace_6535a00a00c94c0593f378d76d4dec87">
+      <head>Physical Characteristics and Technical Requirements</head>
+      <p>This is the Physical Characteristics and Technical Requirements note.</p>
+    </phystech>
+    <prefercite id="aspace_3a758dcc0a9eafb7976839a96615fa21">
+      <head>Preferred Citation</head>
+      <p>This is the Preferred Citation note.</p>
+    </prefercite>
+    <processinfo id="aspace_ede025697b8e5bd48a2e9752bb4eb634">
+      <head><emph>Processing Information</emph><extptr
+          xlink:href="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+          xlink:show="new"
+          xlink:title="http://library.nyu.edu/about/collections/special-collections-and-archives/special-collections/"
+          xlink:type="simple"/></head>
+      <p>This is the Processing Information note.</p>
+    </processinfo>
+    <relatedmaterial id="aspace_5234804138e0f9a3a4639042d816b7f4">
+      <head>Related Materials</head>
+      <p>This is the Related Materials note. Those using the collection may also be interested in
+        P132, held in this repository, which includes photographs of Pemberly, Darcy's estate and
+        childhood home. In an April 1795 letter to his friend, Charles Bingley, Darcy wrote <blockquote>
+          <p>No doubt the estate has exerted a tremendous influence on the development of my
+            character. One may walk for an hour without glimpsing another soul, which has taught me
+            to love tranquility.</p>
+        </blockquote>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/tamwag/tam_189/"
+            xlink:title="Sally Belfrage" xlink:type="simple" xlink:show="new">The Sally Belfrage
+            Papers (TAM 189)</extref></archref></p>
+    </relatedmaterial>
+    <scopecontent id="aspace_c2e115638fa0f6448f8a05f567287451">
+      <head>Scope and Content</head>
+      <p>This is the Scope and Content note.</p>
+    </scopecontent>
+    <separatedmaterial id="aspace_93d92d0c1e70183fc245965ea55d1a8b">
+      <head>Separated Materials</head>
+      <p>This is the Separated Materials note.</p>
+    </separatedmaterial>
+    <userestrict id="aspace_2d8e669a800c026aefc9d7e76ca578c9">
+      <head>Conditions Governing Use</head>
+      <p>This is the Conditions Governing Use note.</p>
+    </userestrict>
+    <altformavail id="aspace_3c14dd8815fd455800c71570138316c6">
+      <head>Existence and Location of Copies</head>
+      <p>This is the Existence and Location of Copies note.</p>
+    </altformavail>
+    <bibliography id="aspace_4eace9a22f9f43be89b214957dbba587">
+      <head>Bibliography</head>
+      <p>This is the Bibliography. <bibref><emph render="bold">Ardouin, Charles Nicholas
+            Celigny</emph>. <title render="italic">Essais sur l'histoire d'Haiti</title>.
+          Port-au-Prince, 1865.</bibref></p>
+    </bibliography>
+    <controlaccess>
+      <geogname source="lcsh">Boston (Mass.) -- Intellectual life -- 20th century.</geogname>
+      <subject source="lcsh">Irish American women -- History -- 19th century.</subject>
+      <genreform source="aat">Oral histories (literary works)</genreform>
+      <occupation source="lcsh">Fulbright scholars.</occupation>
+      <function source="local">War Powers Conference</function>
+      <title source="local">New York Nichibei.</title>
+      <persname source="naf">Debs, Eugene V. (Eugene Victor), 1855-1926</persname>
+      <corpname source="naf">Tamiment Library</corpname>
+      <famname role="fmo" rules="dacs" source="local">Belfrage family</famname>
+    </controlaccess>
+    <dsc>
+      <c id="aspace_499449c48c751a22b7c222d3ce2c2879" level="series">
+        <did>
+          <unittitle>Series I. <persname>Megan O'Shea</persname>
+            <name>Rolodex</name> on <corpname>New York University</corpname></unittitle>
+        </did>
+        <accessrestrict id="aspace_ec2c2285331d2824ae8d4c21e73a552f">
+          <head>Conditions Governing Access</head>
+          <p>This is the Conditions Governing Access note.</p>
+        </accessrestrict>
+        <accruals id="aspace_19f4f59324d4ae62b7ef7e56745039f8">
+          <head>Accruals</head>
+          <p>This is the Accruals note.</p>
+        </accruals>
+        <acqinfo id="aspace_fe2d05d0c6ece43176098328e53f4aa7">
+          <head>Immediate Source of Acquisition</head>
+          <p>This is the Immediate Source of Acquisition note.</p>
+        </acqinfo>
+        <appraisal id="aspace_03db3d0296470cb21020f2882c24bd68">
+          <head>Appraisal</head>
+          <p>This is the Appraisal note.</p>
+        </appraisal>
+        <arrangement id="aspace_cfbd8ed70f80e9c46e47361081f34805">
+          <head>Arrangement</head>
+          <p>This is the Arrangement note.</p>
+        </arrangement>
+        <bioghist id="aspace_c3b852caca83ed640a525cc9c12c1230">
+          <head>Historical Note</head>
+          <p>This is the Historical note.</p>
+        </bioghist>
+        <custodhist id="aspace_7833813cd40de517441d95dd27e383f3">
+          <head>Custodial History</head>
+          <p>This is the Custodial History note.</p>
+        </custodhist>
+        <fileplan id="aspace_9d92cfbb19d3ab2eae98b3509bb13eb6">
+          <head>File Plan</head>
+          <p>This is the File Plan.</p>
+        </fileplan>
+        <odd id="aspace_14d8b5cc06e376f794ada956e2dc3d1a">
+          <head>General</head>
+          <p>This is a General note.</p>
+        </odd>
+        <otherfindaid id="aspace_9724a3d4aa1bf9f723d0abf10571cf3f">
+          <head>Other Finding Aids</head>
+          <p>This is the Other Finding Aids note.</p>
+        </otherfindaid>
+        <originalsloc id="aspace_a1b5fbc79910c44817488d250729a686">
+          <head>Existence and Location of Originals</head>
+          <p>This is the Existence and Location of Originals note.</p>
+        </originalsloc>
+        <phystech id="aspace_7e8552be007d9fc35331a59e0a831f5a">
+          <head>Physical Characteristics and Technical Requirements</head>
+          <p>This is the Physical Characteristics and Technical Requirements note.</p>
+        </phystech>
+        <prefercite id="aspace_59802249b65517da54ed657385362e5b">
+          <head>Preferred Citation</head>
+          <p>This is the Preferred Citation note.</p>
+        </prefercite>
+        <processinfo id="aspace_703aa9981288e97d16c6e3bd32ca5b22">
+          <head>Processing Information</head>
+          <p>This is the Processing Information note.</p>
+        </processinfo>
+        <relatedmaterial id="aspace_2ed7b9e4dd352111e89a909ba78dfca4">
+          <head>Related Materials</head>
+          <p>This is the Related Materials note.</p>
+        </relatedmaterial>
+        <scopecontent id="aspace_dfac3eae96d7fc3be099ae7fa8bd22e3">
+          <head>Scope and Contents</head>
+          <p>This is the Scope and Content note.</p>
+        </scopecontent>
+        <separatedmaterial id="aspace_f2ccd75f63f83d36ad8222b582035a6b">
+          <head>Separated Materials</head>
+          <p>This is the Separated Materials note.</p>
+        </separatedmaterial>
+        <userestrict id="aspace_2a50b40dffc6e51c474e021a377e8d5c">
+          <head>Conditions Governing Use</head>
+          <p>This is the Conditions Governing Use note.</p>
+        </userestrict>
+        <index id="aspace_4793fb5ebba78bde4487e0c1b06e788a">
+          <head>This is the Index head.</head>
+          <p>This is the Index.</p>
+          <indexentry>
+            <corpname>Index term 1</corpname>
+          </indexentry>
+          <indexentry>
+            <name>Index term 2</name>
+          </indexentry>
+          <indexentry>
+            <subject>Index term 3</subject>
+          </indexentry>
+        </index>
+        <controlaccess>
+          <subject source="lcsh">Women historians</subject>
+        </controlaccess>
+        <c id="aspace_68fd22d28746c12f37e250728431c61d" level="otherlevel"
+          otherlevel="Sub-sub-sub-sub-series">
+          <did>
+            <unittitle>Sub-sub-sub-sub-series I.A.1.a.i. Getting into the Weeds</unittitle>
+          </did>
+          <c><did><unittitle>nesting 1</unittitle></did>
+            <c><did><unittitle>nesting 2</unittitle></did>
+              <c><did><unittitle>nesting 3</unittitle></did>
+                <c><did><unittitle>nesting 4</unittitle></did>
+                </c>
+              </c>
+            </c>
+          </c>
+        </c>
+        <c id="aspace_68fd22d28746c12f37e250728431c61x" level="otherlevel"
+          otherlevel="Sub-sub-sub-sub-series">
+          <did>
+            <unittitle>Sub-sub-sub-sub-series I.A.1.a.i. Getting into the Weeds</unittitle>
+          </did>
+          <c><did><unittitle>nesting 1</unittitle></did>
+            <c><did><unittitle>nesting 2</unittitle></did>
+            </c>
+          </c>
+        </c>
+        <c id="aspace_b3c9c88449f4f8e8a4bf801cf619517b" level="item">
+          <did>
+            <unittitle><emph>This is an item</emph><lb/> Here is a <title>title</title>. There is
+              also a <name>name</name>.</unittitle>
+            <container altrender="Record carton" id="aspace_77df5cf6eae303d1939d4"
+              label="Mixed Materials" type="box">1</container>
+            <container id="aspace_1c79aadb15afd8290e9"
+              parent="aspace_7408027903577df5cf6eae303d1939d4" type="folder">1</container>
+            <dao xlink:actuate="onRequest"
+              xlink:href="https://aeon.library.nyu.edu/remoteauth/aeon.dll?Logon&amp;Action=10&amp;Form=31&amp;Value=http://dlib.nyu.edu/findingaids/ead/tamwag/mos_2021.xml&amp;view=xml"
+              xlink:role="audio-service" xlink:show="new" xlink:title="This is a digital object"
+              xlink:type="simple">
+              <daodesc>
+                <p>This is a digital object</p>
+              </daodesc>
+            </dao>
+            <daogrp xlink:title="Archived website of Julie Kathryn" xlink:type="extended">
+              <daodesc>
+                <p>Archived website of Julie Kathryn</p>
+              </daodesc>
+              <daoloc xlink:href="https://wayback.archive-it.org/9900/*/http://www.iamsnowangel.com"
+                xlink:role="external-link"
+                xlink:title="Archived website of Julie Kathryn" xlink:type="locator"/>
+              <daoloc xlink:href="https://wayback.archive-it.org/4049/*/http://www.iamsnowangel.com"
+                xlink:role="external-link"
+                xlink:title="Archived website of Julie Kathryn" xlink:type="locator"/>
+            </daogrp>
+          </did>
+          <separatedmaterial id="aspace_00dd4ebd926cd579f1fd8739f3f4ac5b">
+            <head>Separated Materials</head>
+            <p><archref><physloc>Box 152</physloc></archref></p>
+          </separatedmaterial>
+          <bibliography id="aspace_dc8a27e3beef885bc858b1f2f7527e07">
+            <head>Bibliography</head>
+            <p><bibref>
+                <emph render="italic">This is Not It: Stories</emph> . New York: Distributed Art
+                Publishers, 2002. </bibref></p>
+          </bibliography>
+          <controlaccess>
+            <corpname rules="dacs" source="local">32BJ Service Employees International
+              Union</corpname>
+            <persname source="naf">Aaron, Florence</persname>
+          </controlaccess>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

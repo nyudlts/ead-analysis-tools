@@ -1,0 +1,121 @@
+#!/bin/bash
+
+if [[ $(basename $(pwd)) != "test" ]]; then
+   echo "Please run this script from the project test/ directory" >&2
+   exit 1
+fi
+
+
+cleanup()
+{
+    if [[ -e $TMPFILE ]]
+    then
+	rm $TMPFILE
+    fi
+}
+
+
+TMPFILE=$(mktemp)
+trap cleanup INT TERM EXIT
+
+global_status=0
+
+# test element counts
+../bin/gen-element-counts.sh fixtures/mc_104.xml > $TMPFILE
+diff fixtures/mc_104-expected-output.csv $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: gen-element-count.sh output does not match expected"
+    global_status=1
+fi
+
+# test c-nesting depth
+actual=$(../bin/c-element-depth-analyzer.rb fixtures/c-element-depth-fixture.xml 2>&1)
+expected="5,fixtures/c-element-depth-fixture.xml"
+if [[ "$actual" !=  "$expected" ]]; then
+    echo "ERROR: actual does not match expected"
+    echo "wanted: '$expected' , got '$actual'"
+    global_status=1
+fi
+
+# test nesting depth with arbitrary element
+actual=$(../bin/element-depth-analyzer.rb fixtures/c-element-depth-fixture.xml c 2>&1)
+expected="5,fixtures/c-element-depth-fixture.xml"
+if [[ "$actual" !=  "$expected" ]]; then
+    echo "ERROR: actual does not match expected"
+    echo "wanted: '$expected' , got '$actual'"
+    global_status=1
+fi
+
+# test element union analyzer
+../bin/element-union-single.rb fixtures/mc_104.xml > $TMPFILE
+diff fixtures/mc_104-element-union-output.txt $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: mc_104 union-element output does not match expected"
+    global_status=1
+fi
+
+# test element union analyzer with more complicated file
+../bin/element-union-single.rb fixtures/Omega-EAD-extra-nesting.xml > $TMPFILE
+diff fixtures/Omega-EAD-extra-nesting-element-union.txt $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: Omega-EAD union-element output does not match expected"
+    global_status=1
+fi
+
+# test element union multi analyzer
+../bin/element-union-multi.rb fixtures/element-union-multi-file-list.txt > $TMPFILE 2>/dev/null
+diff fixtures/element-union-multi-expected-output.txt $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: union-element multi output does not match expected"
+    global_status=1
+fi
+
+# test element union analyzer with child sequence compression
+../bin/element-union-with-child-sequences-single.rb fixtures/mss_270.xml > $TMPFILE
+diff fixtures/fales-mss_270-with-compressed-child-sequences-expected-output.txt $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: mss_270 union-element-with-compressed-child-sequences output does not match expected"
+    global_status=1
+fi
+
+# test element union multi analyzer with child sequence compression
+../bin/element-union-with-child-sequences-multi.rb fixtures/first-25-fales-eads-file-list.txt > $TMPFILE 2>/dev/null
+diff fixtures/first-25-fales-eads-with-compressed-child-sequences-expected-output.txt $TMPFILE
+if [[ $? -ne 0 ]]; then
+    echo "ERROR: union-element-multi-with-compressed-child-sequence output does not match expected"
+    global_status=1
+fi
+
+
+# test element child hierarchy
+actual=$(../bin/element-hierarchy-analyzer.rb fixtures/mc_104.xml bioghist 2>&1)
+expected='<bioghist><head></head><p></p></bioghist>,fixtures/mc_104.xml'
+if [[ "$actual" !=  "$expected" ]]; then
+    echo "ERROR: actual does not match expected"
+    echo "wanted: '$expected' , got '$actual'"
+    global_status=1
+fi
+
+# test dao role extractor (stdout only!)
+actual=$(../bin/dao-role-extractor-multi.rb fixtures/dao-role-extractor-file-list.txt 2>/dev/null)
+expected="ROLES:
+audio-service
+electronic-records-service
+image-service
+
+ERRORS:
+file: ./fixtures/mc_74-missing-role.xml has 1 error(s)
+dao@xlink:role value is nil in file: ./fixtures/mc_74-missing-role.xml"
+
+
+if [[ "$actual" !=  "$expected" ]]; then
+    echo "ERROR: actual does not match expected"
+    echo "wanted: '$expected' , got '$actual'"
+    global_status=1
+fi
+
+if [[ $global_status -eq 0 ]]; then
+    echo "PASS"
+fi
+
+exit $global_status

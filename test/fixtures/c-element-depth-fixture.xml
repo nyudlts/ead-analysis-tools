@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601"
+    findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-NyNyUA">rg_6_0</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Records of the Office of the Chancellor and Executive Vice
+          President: David D. Henry and Carroll V. Newsom, John E. Ivey, Jr., George D. Stoddard,
+          and Russell D. Niles <lb/><date>1942-1966 </date><lb/>(Bulk <date normal="1952/1956"
+            type="bulk">1952-1956) </date><lb/>
+          <num>RG.6.0</num></titleproper>
+        <author>Processed by New York University</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>New York University Archives</publisher>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2021-01-21 14:36:03
+          -0500</date>.</creation>
+      <langusage>Description is in <language langcode="eng" encodinganalog="546"
+        >English</language>.</langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>New York University Archives</corpname>
+      </repository>
+      <unittitle>Records of the Office of the Chancellor and Executive Vice President (David D.
+        Henry and Carroll V. Newsom, John E. Ivey, Jr., George D. Stoddard, and Russell D.
+        Niles)</unittitle>
+      <origination label="Creator">
+        <corpname rules="aacr" source="local">New York University. Office of the Chancellor and
+          Executive Vice President</corpname>
+      </origination>
+      <unitid>RG.6.0</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">38.5 Linear Feet</extent>
+        <extent altrender="carrier">72 manuscript boxes</extent>
+      </physdesc>
+      <unitdate normal="1942/1966" type="inclusive">1942-1966</unitdate>
+      <unitdate normal="1952/1956" type="bulk">1952-1956</unitdate>
+      <physloc id="aspace_63078ce9f6418f4251a7d1dd1d786f6b">Materials are stored offsite and advance
+        notice is required for use. Please request materials at least two business days prior to
+        your research visit to coordinate access.</physloc>
+      <abstract id="aspace_70e633da2cf5e26dec947255fddc727b">This collection contains the
+        administrative records of the Chancellor and Executive Vice President at NYU from 1952-1966:
+        David Dodds Henry (1952-1955) and Carroll Vincent Newsom (1955-1956); John Eli Ivey, Jr.,
+        (1957-1959); George Dinsmore Stoddard (1960-1964); and Russell Denison Niles
+        (1964-1966).</abstract>
+      <langmaterial><language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
+    </did>
+    <arrangement id="aspace_8c2053194a0852d8be0a4a5bf0cd4e11">
+      <head>Arrangement</head>
+      <p>Folders are arranged alphabetically by subject.</p>
+      <p>The files are grouped into 5 series:</p>
+      <list type="ordered">
+        <head>Missing Title</head>
+        <item>I, David D. Henry/Carroll V. Newsom</item>
+        <item>II, John E. Ivey, Jr.</item>
+        <item>III, George D. Stoddard</item>
+        <item>IV, Russell D. Niles</item>
+        <item>V, Additional Accession</item>
+      </list>
+    </arrangement>
+    <separatedmaterial id="aspace_6c8a4aac5b8d80b881703facb328f95c">
+      <head>Separated Material</head>
+      <p>Former Series I, Subseries B: Educational Television has been removed and described in its
+        own finding aid:</p>
+      <p>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/archives/edtv/">Guide to the
+            Records of the Educational Television Subseries of the Office of the Executive
+            Vice-Chancellor, Administrations of David D. Henry and Carroll Newsom 1952-1956 RG
+            3.1</extref>
+        </archref>
+      </p>
+    </separatedmaterial>
+    <relatedmaterial id="aspace_9e92a2634f2f6ecd1e26f4744df85c45">
+      <head>Related Material at the New York University Archives</head>
+      <p>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/archives/burgum/">Records of the
+            Edwin Berry Burgum Academic Freedom Case, 1934-1961 </extref>
+        </archref>
+      </p>
+      <p>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/archives/borowitz/"
+            >Administrative Papers of Chancellor/Executive Vice President Sidney Borowitz,
+            1967-1977</extref>
+        </archref>
+      </p>
+      <p>
+        <archref>
+          <extref xlink:href="http://dlib.nyu.edu/findingaids/html/archives/newsom/">Newsom,
+            Carroll, Personal Papers, 1924-1986</extref>
+        </archref>
+      </p>
+    </relatedmaterial>
+    <scopecontent id="aspace_d51da5181661bd5b883ae141b90b675e">
+      <head>Scope and Content Note</head>
+      <p>The administrative records of the Office of the Chancellor and Executive Vice President
+        span the years 1952-1966. The records were processed in ten different segments for the
+        purpose of student assignments. The material has now been merged into one cohesive
+        collection, and access is provided by this guide. The records consist of correspondence,
+        circular memoranda, minutes, reports, meeting notes, policy statements and analyses,
+        evaluations, press releases, printed material, newspaper clippings, surveys and
+        questionnaires, and a few photographs. Original order - alphabetical in most instances - has
+        been maintained, and the series generally reflect the manner in which the documents were
+        originally filed. Folder contents have been arranged chronologically. </p>
+      <p>The collection has been divided into five subgroups, representing each of the Chancellor
+        and Executive Vice Presidents, with the exception of David Henry and Carroll Newsom, who
+        have been combined into one subgroup due to the paucity of the Newsom material and an
+        inability, in some cases, to differentiate between tenures (see series note below). In
+        addition, a small portion of records generated in the final months of the George Stoddard
+        administration were originally interfiled with the bulk of the Russell Niles' papers and
+        have been maintained that way for reasons of continuity and logic (see series note below).
+        Within each subgroup the material has been further divided into series and subseries
+        according to original order. Series titles generally reflect the original file titles and
+        have been changed only when it was necessary to highlight a particular grouping and
+        facilitate access without disturbing the inherent arrangement.</p>
+      <p>The last series, Additional Accession, contains records from all five C/EVPs. Within each
+        subgroup the material has been further divided into series and subseries according to
+        original order. Series titles generally reflect the original file titles and have been
+        changed only when it was necessary to highlight a particular grouping and facilitate access
+        without disturbing the inherent arrangement.</p>
+      <p>The adminstrative records of Henry and Newsom span the years 1942-1964, with the bulk of
+        the material created from 1952-1956. The scant number of records attributed to Newsom
+        suggest that he took many of his files with him upon being elected President of NYU in 1956,
+        leaving records that were indistinct or closely linked to the files of Henry, as in the case
+        of the educational television series. The records of Henry contain some gaps as well; not
+        all files seem to cover his full term in office. </p>
+    </scopecontent>
+    <bioghist id="aspace_074d4d004a7126e349115ef6116d8ae4">
+      <head>Historical/Biographical Note</head>
+      <p>Upon taking office in 1951, Chancellor Henry T. Heald began to centralize administrative
+        functions. He found the administration's history of making decisions based on budgetary
+        demands to be at odds with the goals of an institution for higher learning. Heald sought to
+        develop a policy emphasizing essential educational objectives at a time when the
+        University's rapid growth threatened academic development. In order to preserve the
+        accomplishments achieved through expansion and at the same time execute greater control over
+        educational policy, Heald bolstered the ranks of the central administration by appointing in
+        1952 David D. Henry to the newly created position of Executive Vice Chancellor. Henry
+        assumed the duties of the discontinued Office of the Provost and served as the chief
+        educational officer of the university. Shortly thereafter, Heald appointed an assistant to
+        the Executive Vice Chancellor for University Development.</p>
+      <p>The grant-funded New York University Self-Study Plan, an exhaustive analysis of NYU's
+        policies and practices, outlined a new administrative organization as part of a
+        comprehensive, long-range plan. In affirming centralized authority, the self-study prompted
+        the revision of executive titles: the Chancellor became the President, Vice Chancellors
+        became Vice Presidents, and the University Council became the Board of Trustees. </p>
+      <p>In 1960, the Board of Trustees amended the bylaws to change the title of the Executive Vice
+        President to Chancellor and Executive Vice President (C/EVP). Although the new title did not
+        bring with it a change in duties, it more accurately reflected the C/EVP's position as
+        second in command, while indicating that the Office of the C/EVP was endowed with NYU's
+        original conception of the Chancellor: the head of faculty, the chief liaison between
+        faculty, students, and Board of Trustees, and the officer to recommend faculty.</p>
+      <p>The C/EVP served as the academic alter ego of the President. As chief of University
+        Operations, the C/EVP supervised schools and divisions, student housing, special programs,
+        relations with the State and Federal Departments of Education, and training programs like
+        the now defunct ROTC. The C/EVP was in charge of most "internal organizational problems,"
+        and also attended to related educational activities outside the immediate needs of the
+        university, such as educational television and various research projects. In addition, the
+        C/EVP oversaw the Academic Council (later changed to the Dean's Council, then the Committee
+        of Deans), a small advisory group resulting from a self-study recommendation and consisting
+        of high ranking officers who are each "responsible for a major segment of the university's
+        educational program, as to policy and administration." In addition, the Office of
+        Institutional Research and Educational Planning operated until 1975, under the authority of
+        the C/EVP. The C/EVP office was dissolved in 1977.</p>
+      <p>David Dodds Henry, 1952-1955</p>
+      <p>David Dodds Henry was named the first Executive Vice Chancellor of NYU in September 1952.
+        During his tenure he served as chairperson of the Metropolitan New York Educational Agencies
+        Committee on Television, and two other committees on educational television, sponsored by
+        the American Council on Education. In addition, he was a member of the Special Committee for
+        Rubber Research of the National Science Foundation, and a member of the National Planning
+        Association. Henry frequently lectured on educational television, the use of computers in
+        education, and the university in an urban environment. In 1955 Henry left NYU to assume the
+        presidency of the University of Illinois. </p>
+      <p>Carroll Vincent Newsom, 1955-1956</p>
+      <p>In July 1955, Carroll Newsom was appointed to succeed David Henry. Newsom brought a
+        distinguished career as a mathematics professor and administrator to NYU. He was
+        subsequently elected president of the University at the time of Henry Heald's resignation in
+        September 1956. Newsom resigned as President in September 1961 and became a senior Vice
+        President at Prentice Hall Publishers. </p>
+      <p>John Eli Ivey, Jr., 1957-1959</p>
+      <p>John Ivey, formerly a sociologist at the University of North Carolina, was appointed
+        Executive Vice President of NYU in March 1957. Ivey supported many special projects and
+        exploratory programs at NYU, expanding his position and the scope of the central
+        administration. He resigned in September 1959 and later became Dean of the College of
+        Education and Professor of Sociology at Michigan State University. </p>
+      <p>George Dinsmore Stoddard, 1960-1964</p>
+      <p>George Stoddard, a psychologist and former president of the University of Illinois, came to
+        NYU in 1953 after diplomatic service with the post-war educational mission to Japan. Before
+        becoming Chancellor and Executive Vice President in January 1960, Stoddard directed the NYU
+        Self-Study and served as Dean of the School of Education. He played a central role in
+        constructing a new hierarchy of administrative offices that centralized educational policy
+        and budgetary control. In 1964, Stoddard resigned to become Distinguished Professor of
+        Education. </p>
+      <p>Russell Denison Niles, 1964-1966</p>
+      <p>Russell Niles' long association with NYU began in 1929, when he joined the University as an
+        assistant law professor. He became Dean of the School of Law in 1948, and was named
+        Chancellor and Executive Vice President in February 1964. He resigned in 1966 to become
+        President of the Bar of the City of New York. Niles continued many of the policies of
+        Stoddard, and was an important influence in helping to further centralize and strengthen the
+        administration. </p>
+      <p> Sources: </p>
+      <p>
+        <list>
+          <item>Barrett, Ellen. "Inventory of the Records of John E.Ivey, Jr., 1957-1959," NYU
+            Archives, 1981.</item>
+          <item>Cricco, Nancy. "Inventory to the Records of the George E. Stoddard and Russell D.
+            Niles Administrations, 1963-1965," NYU Archives, 1988. </item>
+          <item>Sabol, Maria. "Inventory to the Records of David D. Henry, 1952-1956," NYU Archives,
+            1981.</item>
+          <item>Still, Bayrd. "Evolution of Organization of General Administrative Offices,
+            1880-1978," NYU Archives, 1978.</item>
+        </list>
+      </p>
+    </bioghist>
+    <prefercite id="aspace_7d246cb7767c94c6203721b00bc05950">
+      <head>Preferred Citation</head>
+      <p>Published citations should take the following form: Identification of item, date (if
+        known); Records of the Office of the Chancellor and Executive Vice President; RG 6.0; box
+        number; folder number; New York University Archives, New York University Libraries.</p>
+    </prefercite>
+    <userestrict id="aspace_c3a9d7456ea63c78320e2d3d1aab4877">
+      <head>Use Restrictions</head>
+      <p>Some materials may be restricted. Permission to publish materials must be obtained in
+        writing from the:<lb/>New York University Archives<lb/> Elmer Holmes Bobst Library<lb/> 70
+        Washington Square South<lb/> New York, NY 10012<lb/> Phone: (212) 998-2641<lb/>Fax: (212)
+        995-4225<lb/>E-mail: university-archives@nyu.edu<lb/></p>
+    </userestrict>
+    <accessrestrict id="aspace_7488239446e7ac74100d2271c6682993">
+      <head>Access Restrictions</head>
+      <p>Institutional records of New York University are closed for a period of 20 years from the
+        date of their creation (the date on which each document was written). Board of Trustees
+        records are similarly closed for 35 years from the date of creation. The opening date for
+        files spanning several years will be 20 years from the most recent date. Access will be
+        given to material already 20 years old contained within a collection that is not yet open
+        when such material can be isolated from the rest of the collection.</p>
+      <p>Materials related to personnel, faculty grievances, job searches and all files with
+        information that falls under the University's Family Educational Rights and Privacy Act
+        (FERPA) policy are permanently restricted.</p>
+      <p>Please contact the University Archivists with specific questions regarding
+        restrictions.</p>
+    </accessrestrict>
+    <processinfo id="aspace_0e01b87647c48893a1d4d01923518723">
+      <head>Processing note</head>
+      <p>Some materials are described on an item level based on a 2015 Marcel Breuer digitization
+        project that made use of this collection.</p>
+    </processinfo>
+    <controlaccess>
+      <genreform source="aat">Correspondence.</genreform>
+      <genreform source="aat">Reports.</genreform>
+      <genreform source="aat">Speeches.</genreform>
+      <genreform source="aat">Official reports.</genreform>
+      <genreform source="aat">Minutes (administrative records)</genreform>
+      <genreform source="aat">Administrative records.</genreform>
+      <geogname source="lcsh">New York (N.Y.) |x History |v Sources.</geogname>
+      <subject source="local">Universities and Colleges -- Professional education.</subject>
+      <subject source="lcsh">Universities and Colleges -- Finance</subject>
+      <subject source="lcsh">Universities and Colleges -- Curricula.</subject>
+      <subject source="lcsh">Universities and Colleges -- Administration</subject>
+      <genreform source="aat">Press releases.</genreform>
+      <genreform source="aat">Clippings (information artifacts)</genreform>
+      <corpname source="naf">New York University. School of Education</corpname>
+      <persname source="naf">Niles, Russell D. (Russell Denison), 1902-1992</persname>
+      <persname source="naf">Heald, Henry T. (Henry Townley), 1904-1975</persname>
+      <persname source="naf">Newsom, Carroll V. (Carroll Vincent), 1904-1990</persname>
+      <corpname rules="dacs" source="local">New York University. Finance Office</corpname>
+      <corpname source="naf">New York University. Faculty of Arts and Science</corpname>
+      <corpname rules="dacs" source="local">New York University. Washington Square College of Arts
+        and Science</corpname>
+      <persname source="naf">Stoddard, George Dinsmore, 1897-1981</persname>
+      <corpname rules="dacs" source="local">New York University. School of Applied
+        Science</corpname>
+      <corpname source="naf">New York University. Graduate School of Arts and Science</corpname>
+      <persname source="naf">Burgum, Edwin Berry, 1894-</persname>
+      <corpname source="naf">New York University. School of Engineering and Science</corpname>
+      <corpname rules="dacs" source="local">New York University. Trustees</corpname>
+      <corpname source="naf">New York University. College of Medicine</corpname>
+      <corpname source="naf">New York University. School of Commerce, Accounts, and
+        Finance</corpname>
+      <persname source="naf">Henry, David Dodds, 1905-</persname>
+      <persname source="naf">Ivey, John E. (John Eli), 1919-</persname>
+      <corpname source="naf">New York University. School of Medicine</corpname>
+      <corpname source="naf">New York University -- Faculty -- 20th century</corpname>
+    </controlaccess>
+    <dsc>
+      <c id="aspace_ref22" level="series">
+        <did>
+          <unittitle>Series I: David D. Henry/Carroll V. Newsom</unittitle>
+          <langmaterial><language langcode="eng">English</language>.</langmaterial>
+        </did>
+        <scopecontent id="aspace_a6924de2edd47c128f9dc18d248fd352">
+          <head>Scope and Contents note</head>
+          <p>The administrative records of David D. Henry and Carroll V. Newsom span the years
+            1948-1956, with the bulk of the material having been created between 1952-1956. The
+            subgroup measures approximately 6.3 linear feet; 5 linear inches remain from Newsom's
+            tenure. The scant number of records attributed to Newsom suggest that he took many of
+            his files with him upon being elected President of the University in 1956, leaving
+            records that were indistinct or closely linked to the files of David Henry, as in the
+            case of the educational television series. The records of David Henry contain some gaps
+            as well; not all files seem to cover his full term in office. The material has been
+            split into 3 series: administrative; educational television; and speeches and
+            biographical information (Henry only).</p>
+        </scopecontent>
+        <c id="aspace_ref23" level="subseries">
+          <did>
+            <unittitle>Subseries A: Administrative</unittitle>
+            <langmaterial><language langcode="eng">English</language>.</langmaterial>
+          </did>
+          <scopecontent id="aspace_9f53db4b2bf8b6cb8eb8e088119ceb7b">
+            <head>Scope and Contents note</head>
+            <p>Records in the administrative subseries consist primarily of correspondence that
+              lends insight into Henry's and Newsom's interaction with the University community,
+              particularly Henry's strong relationships with other administrators, including
+              President Henry Heald. The series contains information on the Edwin Berry Burgum case,
+              the English Professor who was dismissed as a result of a House Un-American Activities
+              Committee (HUAC) investigation of his alleged membership in the communist party (Box
+              1/Fldrs. 5-6), and College of Medicine Professor Albert Keston's attempt to seek draft
+              deferment on the grounds that he was performing valuable research (Box 6/Fldrs.
+              15-16). In addition, the files contain information on land acquisitions (Box 6/Fldr.
+              5), substantial material on the expansion of the NYU Medical Center (Box 7/Fldrs. 49),
+              and correspondence regarding the American Korean Foundation and American benefits to
+              Korean War veterans (Box 1/Fldrs. 1-2; Box 8/ Fldr 1).</p>
+          </scopecontent>
+          <c id="aspace_ref24" level="file">
+            <did>
+              <unittitle>American Korean Foundation</unittitle>
+              <unitdate normal="1954/1954" type="inclusive">1954</unitdate>
+              <container id="aspace_6b90bbc303e0d03d05166dc26369a04e"
+                label="Mixed Materials [31142042254758]" type="box">1</container>
+              <container id="aspace_5bc083162c1fed4358d5d1272e3db8ad"
+                parent="aspace_6b90bbc303e0d03d05166dc26369a04e" type="folder">1</container>
+            </did>
+            <odd id="aspace_15642377dd5c65fff16c8bc32ced22b9">
+              <head>General note</head>
+              <p><emph render="bold">bar code: </emph>3 1142 04225475 8</p>
+            </odd>
+            <c id="aspace_ref25" level="file">
+              <did>
+                <unittitle>American Korean Foundation</unittitle>
+                <unitdate normal="1954/1954" type="inclusive">1954</unitdate>
+                <container id="aspace_6b90bbc303e0d03d05166dc26369a04x"
+                  label="Mixed Materials [31142042254758]" type="box">1</container>
+                <container id="aspace_5bc083162c1fed4358d5d1272e3db8adx"
+                  parent="aspace_6b90bbc303e0d03d05166dc26369a04x" type="folder">1</container>
+              </did>
+              <odd id="aspace_15642377dd5c65fff16c8bc32ced22b9x">
+                <head>General note</head>
+                <p><emph render="bold">bar code: </emph>3 1142 04225475 8</p>
+              </odd>
+              <c id="aspace_ref26" level="file">
+                <did>
+                  <unittitle>American Korean Foundation</unittitle>
+                  <unitdate normal="1954/1954" type="inclusive">1954</unitdate>
+                  <container id="aspace_6b90bbc303e0d03d05166dc26369a04y"
+                    label="Mixed Materials [31142042254758]" type="box">1</container>
+                  <container id="aspace_5bc083162c1fed4358d5d1272e3db8ady"
+                    parent="aspace_6b90bbc303e0d03d05166dc26369a04x" type="folder">1</container>
+                </did>
+                <odd id="aspace_15642377dd5c65fff16c8bc32ced22b9yy">
+                  <head>General note</head>
+                  <p><emph render="bold">bar code: </emph>3 1142 04225475 8</p>
+                </odd>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
