@@ -376,6 +376,17 @@ back to Available Tools](#available-tools)
 This script counts the total number of occurrences of the elements of interest throughout an EAD.  (Please refer to the [gen-element-counts.sh](./bin/gen-element-counts.sh) script  
 to see the list of elements.)
 
+### NOTE: THE EAD FILES MUST BE PRETTY PRINTED BEFORE RUNNING THE ANALYZER OR THE COUNTS WILL BE INACCURATE!!!
+To pretty print an EAD, one can use [`xmllint`](https://xmllint.com/) like this:
+```
+xmllint --format my-non-pretty-printed-ead.xml > pretty-printed-ead.xml
+```
+
+To bulk pretty-print a directory hierarchy of EADs and overwrite the original EADs, one can use `xmllint` like this:
+```
+for f in $(find . -type f -name '*.xml' | sort -V); do  echo "$f"; xmllint --format $f > foo.xml && mv foo.xml $f;  done
+```
+
 **Script:**  
 [`gen-element-counts.sh`](./bin/gen-element-counts.sh)
 
